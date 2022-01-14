@@ -7,6 +7,7 @@ def main(numbers,i):
     Returns:
         list: return answer
     """
-    numbers.pop(i)
-    return numbers
+    x=numbers.pop(i)
+    
+    return x
 print(main([1,2,3,4,5,7,66,7,5],5))
